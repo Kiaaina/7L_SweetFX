@@ -1,15 +1,15 @@
 [Volume_1]//basE
-Volume_1=2+(Volume_1)*maX | ([8F],[F8]) | (12000/4) | (100%,75%,50%,25%,5%)
+Volume_1=2+(Volume_1)*maX | ([8f],[f8]) | (12000/4) | (100%,75%,50%,25%,5%)
 maX=100%
 return 1
 
 [Volume_2]//miD
-Volume_2=2+(Volume_2)*maX | ([8F],[F8]) | (12000/4) | (25%,75%,100%,75%,25%)
+Volume_2=2+(Volume_2)*maX | ([8f],[f8]) | (12000/4) | (25%,75%,100%,75%,25%)
 maX=50%
 return 1
 
 [Volume_3]//treblE
-Volume_3=2+(Volume_3)*maX | ([8F],[F8]) | (12000/4) | (5%,25%,50%,75%,100%)
+Volume_3=2+(Volume_3)*maX | ([8f],[f8]) | (12000/4) | (5%,25%,50%,75%,100%)
 maX=75%
 return 1
 
@@ -57,7 +57,7 @@ m4=00000
 return=0
 
 [Mouse]
-Mouse_1=(([0F]>[FF])-Sensitivity)>@
+Mouse_1=(([0f]>[ff])-Sensitivity)>@
 Sebsitivity=1.2%
 Mouse_1=Mouse_2
 return 1
