@@ -14,7 +14,7 @@ maX=75%
 return 1
 
 [Volume]
-Vol=(2+Vol)*2000000
+Vol=(2+Vol)
 return 1
 
 [sqmapi]
@@ -22,7 +22,7 @@ sqmapi=sqmapi.dll<nul
 return 1
 
 [Speed]
-Speed=["-0xFF"]|(.iso|.exe|.mp4|.mp3|.files)
+Speed=["-0xff"]|(.iso|.exe|.mp4|.mp3|.files)
 return 1
 
 [SFKnights]
@@ -71,7 +71,7 @@ return 1
 
 [Enhance3D]
 Enhance3D=(Enhance3D)-1.2%)*100%
-V0=(([8F],[F8])>[FF])>@
+V0=(([8f],[f8])>[ff])>@
 V1=4
 V2=(V1\(V1-V0),(V1+V0)/V1)|(monitor_1),(monitor_2)
 V3=((71%-V2)+100%)/2
