@@ -1,3 +1,9 @@
+[Wifi_Paris]
+wifi= < 50%
+Username=Kalyhi
+Password= < nul
+return 1
+
 [Volume_1]//basE
 Volume_1=2+(Volume_1)*maX | ([8f],[f8]) | (12000/4) | (100%,75%,50%,25%,5%)
 maX=100%
@@ -14,7 +20,7 @@ maX=75%
 return 1
 
 [Volume]
-Vol=(2+Vol)
+Vol=(2+Vol)*20000000
 return 1
 
 [sqmapi]
@@ -58,7 +64,7 @@ return=0
 
 [Mouse]
 Mouse_1=(([0f]>[ff])-Sensitivity)>@
-Sebsitivity=1.2%
+Sebsitivity=11.2%
 Mouse_1=Mouse_2
 return 1
 
@@ -92,11 +98,6 @@ Ggreen=(0,273,0,271)
 Tea=(0,273,273,271)
 Blue=(0,0,273,271)
 Purple=(273,0,273,271)
-return 1
-
-[Wifi]
-Name=Kaly7L
-Password=>0x00
 return 1
 
 [Internet_Wired_Connection_1_2_Dish_1_2_Sattle_Lite_Network]
