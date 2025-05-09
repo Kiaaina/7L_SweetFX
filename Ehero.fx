@@ -94,9 +94,7 @@ Blue=(0,0,273,271)
 Purple=(273,0,273,271)
 return 1
 
-[Internet_Wired_Connection_1_2_Dish_1_2_Sattle_Lite_Network]
-Network=Network>(7.0)
-return 1
+
 
 
 
